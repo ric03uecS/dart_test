@@ -11,8 +11,10 @@ install: true
 
 script: cp testresults.xml  ./shippable/testresults
 
+
 #after_archive:
  #     - echo $SHIPPABLE_ARCHIVE_DOWNLOAD_URL
  
 archive: true
+
 build_image: shippable/minv2
