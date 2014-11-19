@@ -9,8 +9,6 @@ before_script:
 install: true
 
 script: cp testresults.xml  ./shippable/testresults
-
-
 #after_archive:
  #     - echo $SHIPPABLE_ARCHIVE_DOWNLOAD_URL
  
