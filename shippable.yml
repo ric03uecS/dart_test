@@ -1,11 +1,14 @@
 language: python
 
+
 python:
    - 3.2
+
 before_script:
  - mkdir -p ./shippable/testresults
 
 install: true
+
 script: cp testresults.xml  ./shippable/testresults
 
 #after_archive:
