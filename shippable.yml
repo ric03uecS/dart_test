@@ -1,4 +1,4 @@
-language: test
+language: python
 
 python:
    - 3.2
@@ -20,4 +20,5 @@ build_image:
   name: shippable/minv2
   net: host
   privileged: true
+  
 #build_image: shippable/minv2
